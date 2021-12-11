@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
       $("#button_001").click(function() {
-        $("ul li:first").hide();
+        $("ul li:first").hide(speed, 500);
       });
       $("#button_002").click(function() {
         $(":button").hide();;
