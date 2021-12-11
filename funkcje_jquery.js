@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#button_01").click(function() {
-      $("p").hide();
+      $("p").hide(speed, slow);
     });
     $("#button_02").click(function() {
         $("#p_03").hide();
