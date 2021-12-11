@@ -7,17 +7,17 @@ $(document).ready(function() {
       });
 
 
-    $("#button_001").click(function() {
-       $("ul li:first");
+      $("#button_001").click(function() {
+        $("ul li:first").hide();
       });
-    $("#button_002").click(function() {
-        $(":button");
+      $("#button_002").click(function() {
+        $(":button").hide();;
       });
-    $("#button_003").click(function() {
-        $("li:even");
+      $("#button_003").click(function() {
+        $("li:even").hide();;
       });
-     $("#button_004").click(function() {
-        $("li:odd") ;
+      $("#button_004").click(function() {
+        $("li:odd").hide();
       });
 
 });
