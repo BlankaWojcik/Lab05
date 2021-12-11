@@ -1,19 +1,19 @@
 .square {
     width:200px;
     height: 200px;
-    background-color: #b497c7;
+    background-color: #08f000;
   }
   .triangle {
 	width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 120px solid #F34A53;
+	border-bottom: 120px solid #eeff00;
 	margin: 40px auto 0;
   }
   .circle {
     width:200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #50edbb;
+    background-color: #ff0000;
   }
