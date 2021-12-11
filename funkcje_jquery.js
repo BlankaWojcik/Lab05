@@ -7,4 +7,10 @@ $(document).ready(function() {
         $("#p_03").hide();
       });
 
+    $("#button_03").click(function() {
+        $(".cp_01").hide();
+      });
+
+
+
 });
