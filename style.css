@@ -1,19 +1,21 @@
 #square {
-    width:200px;
-    height: 200px;
-    background-color: #08f000;
-  }
+	width: 100px;
+	height: 100px;
+	background-color: #3cff00;
+	margin: 40px auto 0;
+}
+#circle {
+	width: 120px;
+	height: 120px;
+	background-color: #ff000d;
+	border-radius: 100%;
+	margin: 40px auto 0;
+}
 #triangle {
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 120px solid #eeff00;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 121px solid #eeff00;
 	margin: 40px auto 0;
-  }
-#circle {
-    width:200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #ff0000;
-  }
+}
