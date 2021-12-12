@@ -43,13 +43,13 @@ $(document).ready(function() {
     }); 
 
 $("#button_123").click(function() {
-    $("square_01").slideDown(5000).css("color", "blue").slideUp(1000);
+    $("#square_01").slideDown(5000).css("color", "blue").slideUp(1000);
 }); 
 $("#button_1234").click(function() {
-    $("square_01").slideDown(3000).css("color", "pink").slideUp(4000).css("color", "red");
+    $("#square_01").slideDown(3000).css("color", "pink").slideUp(4000).css("color", "red");
 }); 
 $("#button_12345").click(function() {
-    $("square_01").slideUp(2000).css("color", "green").slideDown(3000).css("color", "red");
+    $("#square_01").slideUp(2000).css("color", "green").slideDown(3000).css("color", "red");
 }); 
 
 
