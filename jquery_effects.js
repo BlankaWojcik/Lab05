@@ -25,11 +25,19 @@ $(document).ready(function() {
         $("p").slideToggle();
     }); 
 
+    $("#button_69").click(function() {
+        var div = $("div");
+        div.animate({height:'400px', opacity: '0.3'}, "slow");
+        div.animate({height:'350px', opacity: '0.7'}, "slow");
+        div.animate({height:'50px', opacity: '0.9'}, "slow");
+        div.animate({height:'500px', opacity: '0.4'}, "slow");
+        div.animate({height:'400px', opacity: '0.5'}, "slow");
+        div.animate({height:'300px', opacity: '0.9'}, "slow");
+    }); 
 
 
 
 
 
-    
 
 });
