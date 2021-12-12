@@ -26,7 +26,7 @@ $(document).ready(function() {
     }); 
 
     $("#button_69").click(function() {
-        var div = $("square_01");
+        var div = $("div");
         div.animate({height:'400px', opacity: '0.3'}, "slow");
         div.animate({width:'350px', opacity: '0.7'}, "slow");
         div.animate({height:'50px', opacity: '0.9'}, "slow");
@@ -35,10 +35,22 @@ $(document).ready(function() {
         div.animate({height:'300px', opacity: '0.9'}, "slow");
     }); 
 
+ $("#button_420").click(function() {
+        $("#square_01").slideDown(5000);
+    }); 
+    $("#button_420").click(function() {
+        $("#square_01").stop();
+    }); 
 
-
-
-
+$("#button_123").click(function() {
+    $("square_01").slideDown(5000).css("color", "blue").slideUp(1000);
+}); 
+$("#button_1234").click(function() {
+    $("square_01").slideDown(3000).css("color", "pink").slideUp(4000).css("color", "red");
+}); 
+$("#button_12345").click(function() {
+    $("square_01").slideUp(2000).css("color", "green").slideDown(3000).css("color", "red");
+}); 
 
 
 
