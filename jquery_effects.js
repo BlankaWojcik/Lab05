@@ -12,7 +12,7 @@ $(document).ready(function() {
     }); 
 
     $("#button_04").click(function() {
-        $("div").fadeTo();
+        $("div").fadeTo(mast);
     });  
 
 });
