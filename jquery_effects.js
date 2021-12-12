@@ -26,7 +26,7 @@ $(document).ready(function() {
     }); 
 
     $("#button_69").click(function() {
-        var div = $("div");
+        var div = $("square_01");
         div.animate({height:'400px', opacity: '0.3'}, "slow");
         div.animate({width:'350px', opacity: '0.7'}, "slow");
         div.animate({height:'50px', opacity: '0.9'}, "slow");
@@ -34,6 +34,7 @@ $(document).ready(function() {
         div.animate({height:'400px', opacity: '0.5'}, "slow");
         div.animate({height:'300px', opacity: '0.9'}, "slow");
     }); 
+
 
 
 
